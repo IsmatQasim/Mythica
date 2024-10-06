@@ -10,7 +10,7 @@ function App() {
           Hello , Best of luck for the Project !
           from hafsa
           from zarish
-          from zarish
+          from zarish fatima
         </p>
         <a
           className="App-link"
