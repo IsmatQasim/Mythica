@@ -4,27 +4,16 @@ import "./index.css"
 
 function App() {
   return (
-<<<<<<< HEAD
-=======
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello , Best of luck for the Project !
-          from hafsa
-          from zarish
-          from zarish fatima
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
->>>>>>> 79f488a846a3d29d4de405b13bcedb020e2b3919
+    <div className="flex items-center justify-center h-screen bg-gray-200">
+      <div className="bg-white shadow-lg rounded-lg p-6">
+        <h1 className="text-2xl font-bold mb-4">Hello, World!</h1>
+        <Button variant="contained" color="primary">
+          MUI Button
+        </Button>
+        <button className="mt-4 bg-blue-500 text-white px-4 py-2 rounded">
+          Tailwind Button
+        </button>
+      </div>
     </div>
   );
 }
