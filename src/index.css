@@ -3,3 +3,7 @@
 @tailwind utilities;
 
 
+.bold {
+    font-family: 'PPHatton';
+    font-weight: bold;
+}

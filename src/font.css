@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'PPHatton';
+    src: url('./fonts/PPHatton-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PPHatton';
+    src: url('./fonts/PPHatton-BoldItalic.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PPHatton';
+    src: url('./fonts/PPHatton-Medium.otf') format('opentype');
+    font-weight: 500; /* Medium weight */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PPHatton';
+    src: url('./fonts/PPHatton-MediumItalic.otf') format('opentype');
+    font-weight: 500; /* Medium weight */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PPHatton';
+    src: url('./fonts/PPHatton-Ultralight.otf') format('opentype');
+    font-weight: 300; /* Ultralight weight */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PPHatton';
+    src: url('./fonts/PPHatton-UltralightItalic.otf') format('opentype');
+    font-weight: 300; /* Ultralight weight */
+    font-style: italic;
+}
+
+/* Apply the default font globally */
+body {
+    font-family: 'PPHatton', sans-serif;
+}
