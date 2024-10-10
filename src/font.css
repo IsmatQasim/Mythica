@@ -41,6 +41,6 @@
 }
 
 /* Apply the default font globally */
-body {
-    font-family: 'PPHatton', sans-serif;
+*{
+    font-family: 'PPHatton';
 }
