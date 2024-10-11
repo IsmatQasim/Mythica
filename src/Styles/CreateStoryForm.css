@@ -1,0 +1,92 @@
+* {
+    font-family: "Arial";
+  }
+  .myBackground {
+    background-image: url("../Images/CreateYouOwnStory&AIStory.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+  }
+ 
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.form-box {
+    width: 50%;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px; /* Increased gap between left and right sections */
+}
+
+.form-left,
+.form-right {
+    display: flex;
+    flex-direction: column;
+    gap: 25px; /* Spacing between input fields within each section */
+}   
+/* General custom text field styles */
+.custom-textfield .MuiOutlinedInput-root {
+  border: 1px solid black; /* Black outline */
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(227, 82, 198, 0.5);
+  height: 40px;
+  width: 300px;
+}
+
+
+
+/* Right-side custom text field styles for story */
+.custom-textfield-right .MuiOutlinedInput-root {
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 0px 2px 5px rgba(227, 82, 198, 0.5);
+
+}
+
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-left: 90px;
+ 
+}
+
+.buttonbox {
+  display: flex;
+  justify-content: center;
+  margin-top: 55px;
+}
+
+.buttonbox .form-buttons .btn {
+  background-color: transparent;
+  color: black;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 80px; /* Full rounded corners */
+  width: 170px; /* Equal width for all buttons */
+  height: 40px; /* Equal height for all buttons */
+  font-size: 1rem; /* text-2xl equivalent */
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0px 2px rgba(227, 82, 198, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center text within the button */
+  margin: 0; /* Remove automatic margins */
+}
+
+.buttonbox .form-buttons .btn:hover {
+  transform: scale(1.1);
+}
+
+.buttonbox .form-buttons .btn:active {
+  transform: scale(0.95);
+}
