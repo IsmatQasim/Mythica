@@ -1,10 +1,10 @@
-import React from 'react'
+import React from "react";
 
 const DraftsIcon = () => {
   return (
     <svg
-      height="18px"
-      width="18px"
+      height="40px"
+      width="100px"
       viewBox="0 0 18 18"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -17,7 +17,7 @@ const DraftsIcon = () => {
         </g>
       </g>
     </svg>
-  )
-}
+  );
+};
 
-export default DraftsIcon
+export default DraftsIcon;

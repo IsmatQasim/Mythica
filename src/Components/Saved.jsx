@@ -1,12 +1,12 @@
 import React from 'react'
 
-const Saved = () => {
+const  Saved = () => {
   return (
     <>
-        <h2>Saved</h2>
-        <p>This is the Saved section.</p>
+        <h2 className='sub-heading text-center ' >Saved</h2>
+        <p className='paragraph text-center'>This is the  Saved section.</p>
     </>
   )
 }
 
-export default Saved
+export default  Saved

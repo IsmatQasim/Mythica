@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 
 const BookmarkIcon = () => {
   return (
     <svg
-      height="18px"
-      width="14px"
+      height="40px"
+      width="100px"
       viewBox="0 0 14 18"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
