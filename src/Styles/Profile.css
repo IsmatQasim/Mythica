@@ -8,3 +8,18 @@
     height: 100vh;
     width: 100%;
   }
+  .heading {
+    font-family: "PPHatton";
+    font-weight: bold;
+    font-size: 45px;
+  }
+  .sub-heading {
+    font-family: "PPHatton";
+    font-weight: bold;
+    font-size: 35px;
+  }
+  .paragraph {
+    font-family: "PPHatton";
+    font-weight: Ultralight;
+    font-size: 30px;
+  }
