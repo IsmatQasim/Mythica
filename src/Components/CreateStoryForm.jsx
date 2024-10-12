@@ -29,13 +29,10 @@ const StoryForm = () => {
 
   return (
     <div className="myBackground">
-      <h1 style={{ fontSize: '50px', fontWeight: 'bold', paddingTop: '60px', textAlign: 'center' }}>
-        Create Your Own Story
-      </h1>
+           <h1 class="font-pphatton text-[50px] font-bold pt-[50px] text-center"> Create Your Own Story</h1>
       <div className="form-container">
         <div className="form-box">
           <form onSubmit={formik.handleSubmit} className="form-grid">
-            {/* Left Side: Title, Author, Date, Category, Genre */}
             <div className="form-left">
               <TextField
                 fullWidth
@@ -51,15 +48,17 @@ const StoryForm = () => {
                 InputLabelProps={{
                   style: {
                     color: 'black',
-                    fontWeight: 'bold',
-                    fontSize: '18px', // Set font size to 34 pixels
+                    fontFamily: 'PPHatton',
+                    fontWeight: '600',
+                    fontSize: '24px',  
                   },
                 }}  
                 InputProps={{
                   style: {
                     color: 'black',
-                    fontWeight: 'normal', // Keep input text normal weight
-                    fontSize: '15px', // Adjust input text size if needed
+                    fontFamily: 'PPHatton',
+                    fontWeight: 'ultralight', 
+                    fontSize: '22px',      
                   },
                 }}
               />
@@ -77,15 +76,17 @@ const StoryForm = () => {
                 InputLabelProps={{
                   style: {
                     color: 'black',
-                    fontWeight: 'bold',
-                    fontSize: '18px', // Set font size to 34 pixels
+                    fontFamily: 'PPHatton',
+                    fontWeight: '600',
+                    fontSize: '24px',  
                   },
                 }}  
                 InputProps={{
                   style: {
                     color: 'black',
-                    fontWeight: 'normal', // Keep input text normal weight
-                    fontSize: '15px', // Adjust input text size if needed
+                    fontFamily: 'PPHatton',
+                    fontWeight: 'ultralight', 
+                    fontSize: '22px',      
                   },
                 }}
               />
@@ -103,15 +104,17 @@ const StoryForm = () => {
                 InputLabelProps={{
                   style: {
                     color: 'black',
-                    fontWeight: 'bold',
-                    fontSize: '18px', // Set font size to 34 pixels
+                    fontFamily: 'PPHatton',
+                    fontWeight: '600',
+                    fontSize: '24px',  
                   },
                 }}  
                 InputProps={{
                   style: {
                     color: 'black',
-                    fontWeight: 'normal', // Keep input text normal weight
-                    fontSize: '15px', // Adjust input text size if needed
+                    fontFamily: 'PPHatton',
+                    fontWeight: 'ultralight', 
+                    fontSize: '22px',      
                   },
                 }}
               />
@@ -129,15 +132,17 @@ const StoryForm = () => {
                 InputLabelProps={{
                   style: {
                     color: 'black',
-                    fontWeight: 'bold',
-                    fontSize: '18px', // Set font size to 34 pixels
+                    fontFamily: 'PPHatton',
+                    fontWeight: '600',
+                    fontSize: '24px',  
                   },
                 }}  
                 InputProps={{
                   style: {
                     color: 'black',
-                    fontWeight: 'normal', // Keep input text normal weight
-                    fontSize: '15px', // Adjust input text size if needed
+                    fontFamily: 'PPHatton',
+                    fontWeight: 'ultralight', 
+                    fontSize: '22px',      
                   },
                 }}
               />
@@ -155,16 +160,19 @@ const StoryForm = () => {
                 InputLabelProps={{
                   style: {
                     color: 'black',
-                    fontWeight: 'bold',
-                    fontSize: '18px', // Set font size to 34 pixels
+                    fontFamily: 'PPHatton',
+                    fontWeight: '600',
+                    fontSize: '24px',  
                   },
                 }}  
                 InputProps={{
                   style: {
                     color: 'black',
-                    fontWeight: 'normal', // Keep input text normal weight
-                    fontSize: '15px', // Adjust input text size if needed
+                    fontFamily: 'PPHatton',
+                    fontWeight: 'ultralight', 
+                    fontSize: '22px',      
                   },
+
                 }}
               />
             </div>
@@ -181,24 +189,23 @@ const StoryForm = () => {
                 helperText={formik.touched.story && formik.errors.story}
                 className="custom-textfield-right"
                 multiline
-                rows={11} // Adjust number of rows for the story field
+                rows={10} // 
                 InputLabelProps={{
                   style: {
                     color: 'black',
-                    fontWeight: 'bold',
-                    fontSize: '18px', // Set font size to 34 pixels
+                    fontFamily: 'PPHatton',
+                    fontWeight: '600',
+                    fontSize: '24px',  
                   },
                 }}  
                 InputProps={{
                   style: {
                     color: 'black',
-                    fontWeight: 'normal', // Keep input text normal weight
-                    fontSize: '15px', // Adjust input text size if needed
+                    fontFamily: 'PPHatton',
+                    fontWeight: 'ultralight', 
+                    fontSize: '22px',      
                   },
-                }}
-/>
-                
-      
+                }}/>
             </div>
          </form>
 
@@ -206,7 +213,7 @@ const StoryForm = () => {
               <div className="form-buttons">
                 <Button 
                   variant="outlined" 
-                  type="submit" // Move the button here to ensure it's part of the form
+                  type="submit" 
                   className="btn"
                 >
                   Publish
