@@ -7,7 +7,7 @@ import Privacy from '../Components/Privacy'
 const CommunityAndPrivacy = () => {
   return (
     <>
-    <div className="myBackground">
+    <div className="background">
     <Community/>
     <Privacy />
     </div>

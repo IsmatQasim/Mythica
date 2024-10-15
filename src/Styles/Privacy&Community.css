@@ -1,7 +1,7 @@
 * {
   font-family: "PPHatton";
 }
-.myBackground {
+.background {
   background-image: url("../Images/Profile & Community.png");
   background-size: cover;
   background-position: center;
@@ -18,6 +18,3 @@
   font-weight: Ultralight;
   font-size: 35px;
 }
-@tailwind base;
-@tailwind components;
-@tailwind utilities;

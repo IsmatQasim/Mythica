@@ -36,7 +36,7 @@ const Profile = () => {
   return (
     <>
       <hr />
-      <div className="myBackground p-6">
+      <div className="background p-6">
         <button
           type="submit"
           className="submit-button bg-transparent text-black border border-black rounded-full px-8 py-2 me-[300px] mt-2 mx-auto block text-2xl bold transition-transform duration-300 ease-in-out transform hover:scale-110 active:scale-95"
