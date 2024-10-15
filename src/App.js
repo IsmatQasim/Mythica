@@ -3,14 +3,14 @@ import React from "react";
 // import CommunityAndPrivacy from "./Pages/Community&Privacy";
 //import Profile from "./Pages/Profile";
 import './Styles/CreateStoryForm.css'; 
-import Stories from "./Pages/Stories";
-// import StoryCreatePage from './Pages/CreateYourOwnStory'; 
+// import Stories from "./Pages/Stories";
+import StoryCreatePage from './Pages/CreateYourOwnStory'; 
 
 function App() {
   return (
     <div>
-    <Stories />
-      {/* <StoryCreatePage />  */}
+    {/* <Stories /> */}
+      <StoryCreatePage /> 
        {/* <CommunityAndPrivacy /> */}
        {/*<Profile />*/ }
 
