@@ -8,15 +8,28 @@
     font-size: 50px;
     font-weight: bold;
 }
-.bold{
+.mainHeading{
     font-size:45px;
     font-weight:bold;
 }
-.text{
-    font-size: 35px;
-    font-weight: ultralight;
+.subHeading{
+    font-size:25px;
+    font-weight:bold;
 }
-.smallText{
+.paragraph{
+   font-size:32px;
+}
+/* Profile Page Font */
+.profileHeading{
+    font-size: 35px;
+    font-weight: bold;
+}
+.profileSubHeading{
+    font-size: 20px;
+    font-weight: bold;
+}
+/* Story Page Font */
+.storyParagraph{
     font-size: 25px;
-    font-weight: lighter;
+   
 }

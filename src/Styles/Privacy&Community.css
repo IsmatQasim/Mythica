@@ -1,20 +1,7 @@
-* {
-  font-family: "PPHatton";
-}
-.background {
+.communityBackground {
   background-image: url("../Images/Profile & Community.png");
   background-size: cover;
   background-position: center;
   height: 100vh;
   width: 100%;
-}
-.heading {
-  font-family: "PPHatton";
-  font-weight: bold;
-  font-size: 45px;
-}
-.paragraph {
-  font-family: "PPHatton";
-  font-weight: Ultralight;
-  font-size: 35px;
 }

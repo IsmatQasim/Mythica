@@ -8,15 +8,16 @@ const App = () => {
 
   // Mock data for dropdown options
   const yearOptions = ["2022", "2023"];
-  const authorOptions = year === "2022" ? ["Author A", "Author B"] : ["Author C", "Author D"];
+  const authorOptions =
+    year === "2022" ? ["Author A", "Author B"] : ["Author C", "Author D"];
   const categoryOptions = author === "Author A" ? ["Fiction"] : ["Non-Fiction"];
-  const genreOptions = category === "Fiction" ? ["Drama", "Adventure"] : ["History", "Biography"];
+  const genreOptions =
+    category === "Fiction" ? ["Drama", "Adventure"] : ["History", "Biography"];
 
   return (
-    <div className="text-center p-6">
+    <div className="text-center storyParagraph p-6">
       {/* Reusing the dropdowns for Name, Year, Author, Category, Genre */}
       <div className="flex justify-center space-x-4">
-
         {/* Year Dropdown */}
         <Dropdown
           label="Year"
@@ -29,8 +30,6 @@ const App = () => {
             setGenre("");
           }}
         />
-
-        {/* Author Dropdown */}
         <Dropdown
           label="Author"
           options={authorOptions}
@@ -42,7 +41,6 @@ const App = () => {
           }}
         />
 
-        {/* Category Dropdown */}
         <Dropdown
           label="Category"
           options={categoryOptions}
@@ -53,7 +51,6 @@ const App = () => {
           }}
         />
 
-        {/* Genre Dropdown */}
         <Dropdown
           label="Genre"
           options={genreOptions}
@@ -69,7 +66,7 @@ const App = () => {
 const Dropdown = ({ label, options, selected, onChange }) => {
   return (
     <div className="flex flex-col items-center mx-4">
-      <label className="flex items-center space-x-2 smallText">
+      <label className="flex items-center space-x-2 storyParagraph">
         <span>{label}</span>
         <div className="relative">
           <select

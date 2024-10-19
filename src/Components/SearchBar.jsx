@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const SearchBar = () => {
+const SearchBar = ({ onSearch }) => {
   const [showInput, setShowInput] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
   const [isVisible, setIsVisible] = useState(true); // State to track visibility of the button
@@ -14,6 +14,7 @@ const SearchBar = () => {
   const handleSearch = (e) => {
     e.preventDefault();
     console.log("Searching for:", searchTerm);
+    onSearch(searchTerm); // Pass the search term to the parent component
     setSearchTerm(""); // Clear input after search
     setShowInput(false); // Close input after search
     setIsVisible(true); // Optionally, show the button again after search
