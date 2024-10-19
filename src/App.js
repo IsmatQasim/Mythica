@@ -6,6 +6,13 @@ import "./index.css";
 // import StoryCreatePage from "./Pages/CreateYourOwnStory";
 // import "./Styles/CreateStoryForm.css";
 
+import Homepage from './Pages/Homepage';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import About from './Components/About';
+import AiStoryGenerator from './Pages/AiStoryGenerator';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+
 function App() {
   return (
     <div>
@@ -13,7 +20,24 @@ function App() {
       <CommunityAndPrivacy />
       <Profile /> */}
       {/* <StoryCreatePage /> */}
-    </div>
+
+
+      <Router>
+      <Routes>
+          <Route path="/" element={<Homepage />} />  {/* Homepage route */}
+          <Route path="/about" element={<About />} />  {/* About page route */}
+          
+        </Routes>
+      </Router>
+
+      <AiStoryGenerator/>
+       </div>
+
+       
+
+
+
+       
   );
 }
 export default App;

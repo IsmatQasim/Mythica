@@ -1,0 +1,11 @@
+.navbar {
+  position: sticky; /* or sticky */
+  top: 0; /* stick to the top */
+  width: 100%; /* full width */
+  transition: background-color 0.3s; /* optional for smooth transition */
+  z-index: 1000; /* ensure it's on top */
+}
+
+.navbar.scrolled {
+  background-color: rgba(255, 255, 255, 0.9); /* change background on scroll */
+}
