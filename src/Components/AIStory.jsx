@@ -41,7 +41,7 @@ const AIStory = () => {
       style={{ backgroundImage: `url(${aistoryImg})`, height: '100vh', overflow: 'hidden' }} // Covering the full viewport
     >
       <div className="w-full max-w-screen-lg ">
-        <h2 className="text-6xl font-bold mb-[50px] text-center">AI Story Generator</h2>
+        <h2 className="mainHeading text-6xl font-bold mb-[50px] text-center">AI Story Generator</h2>
 
         <form onSubmit={formik.handleSubmit} className="grid grid-cols-2 gap-[140px] mb-20 mr-[50px] w-full space-2"> {/* Increased gap here */}
 
@@ -49,7 +49,7 @@ const AIStory = () => {
           <div className="space-y-6 ml-[50px]"> {/* Reduced spacing */}
             <div>
               <input
-                className="w-[450px] border-[1px] border-gray-700 p-2 rounded shadow-md placeholder-black font-bold text-xl bg-white/30 backdrop-blur-md "
+                className="w-[450px] subHeading border-[1px] border-gray-700 p-2 rounded shadow-md placeholder-black bg-white/30 backdrop-blur-md "
                 type="text"
                 name="title"
                 placeholder="Title:"
@@ -71,7 +71,7 @@ const AIStory = () => {
 
             <div>
               <input
-                className="w-[450px] border-[1px] border-gray-700 p-2 rounded shadow-md placeholder-black font-bold text-xl bg-white/30 backdrop-blur-md"
+                className="w-[450px] subHeading border-[1px] border-gray-700 p-2 rounded shadow-md placeholder-black bg-white/30 backdrop-blur-md"
                 type="text"
                 name="category"
                 placeholder="Category:"
@@ -93,7 +93,7 @@ const AIStory = () => {
 
             <div>
               <input
-                className="w-[450px] border-[1px] border-gray-700 p-2 rounded shadow-md placeholder-black font-bold text-xl bg-white/30 backdrop-blur-md"
+                className="w-[450px] subHeading border-[1px] border-gray-700 p-2 rounded shadow-md placeholder-black bg-white/30 backdrop-blur-md"
                 type="text"
                 name="genre"
                 placeholder="Genre:"
@@ -115,7 +115,7 @@ const AIStory = () => {
 
             <div>
               <input
-                className="w-[450px] border-[1px] border-gray-700 p-2 rounded shadow-md placeholder-black font-bold text-xl bg-white/30 backdrop-blur-md"
+                className="w-[450px] subHeading border-[1px] border-gray-700 p-2 rounded shadow-md placeholder-black bg-white/30 backdrop-blur-md"
                 type="number"
                 name="wordLimit"
                 placeholder="Word Limit:"
@@ -137,7 +137,7 @@ const AIStory = () => {
 
             <div>
               <textarea
-                className="w-[450px] h-[150px] border-[1px] border-gray-700 p-2 rounded shadow-md placeholder-black font-bold text-xl bg-white/25 backdrop-blur-md"
+                className="w-[450px] subHeading h-[150px] border-[1px] border-gray-700 p-2 rounded shadow-md placeholder-black bg-white/25 backdrop-blur-md"
                 name="promptLeft"
                 placeholder="Prompt:"
                 onChange={formik.handleChange}
@@ -161,7 +161,7 @@ const AIStory = () => {
           <div className="space-y-6"> {/* Reduced spacing */}
             <div>
               <input
-                className="w-[450px] border-[1px] border-gray-700 p-2 rounded shadow-md placeholder-black font-bold text-xl bg-white/30 backdrop-blur-md"
+                className="w-[450px] subHeading border-[1px] border-gray-700 p-2 rounded shadow-md placeholder-black bg-white/30 backdrop-blur-md"
                 type="number"
                 name="noOfCharacters"
                 placeholder="No. Of Characters:"
@@ -183,7 +183,7 @@ const AIStory = () => {
 
             <div>
               <textarea
-                className="w-[450px] h-[295px] border-[1px] border-gray-700 p-2 rounded shadow-md placeholder-black font-bold text-xl bg-white/30 backdrop-blur-md"
+                className="w-[450px] subHeading h-[295px] border-[1px] border-gray-700 p-2 rounded shadow-md placeholder-black bg-white/30 backdrop-blur-md"
                 name="promptRight"
                 placeholder="Prompt:"
                 onChange={formik.handleChange}
@@ -205,7 +205,7 @@ const AIStory = () => {
             <div className="flex justify-end">
               <button
                 type="submit"
-                className="text-black px-4 py-2 rounded-full border-[1px] border-gray-700 font-bold hover:bg-gray-200 bg-white/30 backdrop-blur-md shadow-md "
+                className="text-black subHeading px-4 py-2 rounded-full border-[1px] border-gray-700 hover:bg-gray-200 bg-white/30 backdrop-blur-md shadow-md "
                 style={{ width: '40%',
                   boxShadow: '0 1px 3px rgba(128, 0, 128, 0.8)',  // Purple shadow only on the bottom
                   borderTop: 'none',

@@ -27,17 +27,17 @@ const Homepage = () => {
 
         {/* Heading */}
         <div className="relative min-h-screen flex flex-col justify-center items-center text-center">
-          <h1 className="text-black text-3xl md:text-7xl font-bold mb-20 animate-slideIn">
+          <h1 className="text-black heroSectionHeading md:text-7xl font-bold mb-20 animate-slideIn">
             Discover World of Wonder <br />One Story at a Time
           </h1>
 
 
-          <p className="text-lg md:text-3xl text-black mb-8 max-w-2xl mb-1">
+          <p className="subHeading text-black mb-1">
             Unleash your imagination with AI-generated <br />tales, handcrafted just for you. <br />
             Explore stories, write your own, and <br />let your creativity soar!
           </p>
 
-          <button className="bg-transparent text-black-600 text-xl font-semibold mt-8 px-8 py-3 border border-black rounded-full shadow-lg hover:bg-purple-100 transition duration-300">
+          <button className="subHeading bg-transparent text-black mt-8 px-8 py-3 border border-black rounded-full shadow-lg hover:bg-purple-100 transition duration-300">
             Read Stories Now
           </button>
         </div>

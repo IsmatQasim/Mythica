@@ -39,7 +39,7 @@ export default function Navbar() {
         </div>
 
         {/* Navigation Links */}
-        <ul className="nav-links flex space-x-4 mr-3 pt-2 bold">
+        <ul className="nav-links paragraph flex space-x-4 mr-3 pt-2 bold">
           
           <li>
             <Link to="/" className=" m-6 text-[25px] text-white no-underline hover:underline">Home</Link>
