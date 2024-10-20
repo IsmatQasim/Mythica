@@ -18,7 +18,7 @@ const About = () => {
         }}
       >
         <div>
-          <h2 className="text-6xl font-bold mb-9 mainHeading">About Us</h2>
+          <h2 className="mb-9 mainHeading">About Us</h2>
           <p className="paragraph">
             Welcome to Mythica, where imagination and creativity come to life! At Mythica,<br></br> 
             we believe that stories are the threads that connect us all, weaving together <br></br>
@@ -32,7 +32,7 @@ const About = () => {
             imagination soar as we journey together through the limitless landscapes of <br></br>
             fiction. 
           </p>
-          <button className="subHeading bg-lightpink text-black text-xl font-semibold px-12 py-4 border border-black rounded-full hover:bg-purple-100 transition duration-300">
+          <button className="subHeading bg-lightpink text-black px-12 py-4 border border-black rounded-full hover:bg-purple-100 transition duration-300">
   Read More
 </button>
 
@@ -41,7 +41,7 @@ const About = () => {
 
       {/* Footer */}
       <footer className="bg-black text-lg text-white py-2 text-center ">
-        <p className="subHeading">Designed & Developed by HIZ!</p>
+        <p className="footer">Designed & Developed by HIZ!</p>
       </footer>
     </div>
   );
