@@ -4,7 +4,7 @@ import "./index.css";
 // import Profile from "./Pages/Profile";
 // import Stories from "./Pages/Stories";
 // import StoryCreatePage from "./Pages/CreateYourOwnStory";
-// import "./Styles/CreateStoryForm.css";
+import "./Styles/CreateStoryForm.css";
 
 import Homepage from './Pages/Homepage';
 import 'bootstrap/dist/css/bootstrap.min.css';
